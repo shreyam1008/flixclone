@@ -4,6 +4,8 @@ import "./App.css"
 
 import Row from "./Row"
 import Banner from './Banner'
+import NavBar from './NavBar'
+
 
 import requests from './requests'
 
@@ -11,6 +13,8 @@ const App = () => {
   return (
     <div className="app"> 
       {/* navbar */}
+
+      <NavBar />
 
 
       {/* banner */}
